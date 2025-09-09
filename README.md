@@ -1,4 +1,5 @@
 # LoRA Converter
+** ORIGINAL SCRIPT CREATED BY MONKEYBUSINESS **
 
 A sleek, modern Electron app for converting LoRA files from Wan format to ComfyUI format.
 
@@ -155,3 +156,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ---
 
 **Made with ❤️ for the AI/ML community**
+
