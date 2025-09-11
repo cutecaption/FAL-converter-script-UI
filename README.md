@@ -1,5 +1,7 @@
 # LoRA Converter
-** ORIGINAL SCRIPT CREATED BY MONKEYBUSINESS **
+** ORIGINAL SCRIPT CREATED BY Unknown Author the script was originally posted on Banodoco Discord -- if you are the author or know the author please reach out you can find me on discord as shotgun messiah
+
+https://discord.gg/BcxmHtRfgf **
 
 A sleek, modern Electron app for converting LoRA files from Wan format to ComfyUI format.
 
@@ -149,11 +151,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- Original Python conversion logic for Wan → ComfyUI compatibility
-- Electron team for the excellent framework
-- Community feedback and testing
+- Original script posted in Banodoco discord https://discord.gg/BcxmHtRfgf
 
 ---
 
-**Made with ❤️ for the AI/ML community**
 
