@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # LoRA Converter
 
 A sleek, modern Electron app for converting LoRA files from Wan format to ComfyUI format.
