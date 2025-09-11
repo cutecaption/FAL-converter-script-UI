@@ -1,0 +1,151 @@
+{
+  "name": "lora-converter",
+  "version": "1.1.0",
+  "description": "A sleek Electron app for converting LoRA files from Wan to ComfyUI format",
+  "main": "main.js",
+  "homepage": "https://github.com/cutecaption/FAL-converter-script-UI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cutecaption/FAL-converter-script-UI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cutecaption/FAL-converter-script-UI/issues"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder --win --publish=never",
+    "build-mac": "electron-builder --mac --publish=never",
+    "build-all": "electron-builder --win --mac --linux --publish=never",
+    "dist": "electron-builder --win --publish=never",
+    "dist-mac": "electron-builder --mac --publish=never",
+    "pack": "electron-builder --dir",
+    "pack-mac": "electron-builder --mac --dir",
+    "postinstall": "electron-builder install-app-deps",
+    "release": "electron-builder --win --mac --linux --publish=always",
+    "release-mac": "electron-builder --mac --publish=always"
+  },
+  "keywords": [
+    "lora",
+    "converter", 
+    "electron",
+    "comfyui",
+    "wan",
+    "safetensors",
+    "ai",
+    "ml",
+    "machine-learning"
+  ],
+  "author": {
+    "name": "LoRA Converter Team",
+    "email": "contact@example.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {},
+  "build": {
+    "appId": "com.loraconverter.app",
+    "productName": "LoRA Converter",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "**/*",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/node_modules/*.d.ts",
+      "!**/node_modules/.bin",
+      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+      "!.editorconfig",
+      "!**/._*",
+      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+      "!**/{appveyor.yml,.travis.yml,circle.yml}",
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+    ],
+    "extraFiles": [
+      {
+        "from": "lora_wan2comfy_dragdrop.py",
+        "to": "lora_wan2comfy_dragdrop.py"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "publisherName": "LoRA Converter",
+      "verifyUpdateCodeSignature": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "LoRA Converter"
+    },
+    "portable": {
+      "artifactName": "LoRA-Converter-Portable-${version}.exe"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["x64", "arm64"]
+        },
+        {
+          "target": "zip",
+          "arch": ["x64", "arm64"]
+        }
+      ],
+      "category": "public.app-category.developer-tools",
+      "icon": "build/icon.icns",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "artifactName": "LoRA-Converter-${version}-${arch}.${ext}"
+    },
+    "dmg": {
+      "title": "LoRA Converter ${version}",
+      "artifactName": "LoRA-Converter-${version}.${ext}",
+      "background": "build/background.png",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": ["x64"]
+        }
+      ],
+      "category": "Development"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "cutecaption",
+      "repo": "FAL-converter-script-UI"
+    }
+  }
+}
