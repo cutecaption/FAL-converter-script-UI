@@ -1,6 +1,8 @@
 
 # LoRA Converter
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/d9Jn48D/screen-shot-convert.png" alt="screen-shot-convert" border="0"></a>
+
 A sleek, modern Electron app for converting LoRA files from Wan format to ComfyUI format.
 
 ![LoRA Converter Screenshot](https://via.placeholder.com/800x500/1a1a1a/ffffff?text=LoRA+Converter+Screenshot)
@@ -15,10 +17,7 @@ A sleek, modern Electron app for converting LoRA files from Wan format to ComfyU
 3. Run the executable - no installation required!
 
 #### For Mac:
-1. Go to [Releases](../../releases)
-2. Download the latest `.dmg` file for Mac
-3. Open the DMG and drag LoRA Converter to Applications
-4. **Important**: On first launch, you may need to right-click → "Open" to bypass Gatekeeper
+this is current under revision
 
 ### Option 2: Build from Source
 ```bash
