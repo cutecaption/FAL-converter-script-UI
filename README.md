@@ -78,6 +78,7 @@ The app performs these exact transformations on LoRA keys:
 - **Python 3.7+** with `safetensors` and `torch` packages installed
 - **Windows 10+** or **macOS 10.14+** (Intel and Apple Silicon supported)
 - **Linux** (AppImage available in releases)
+- pip: safetensors, torch, numpy
 
 ### For Building from Source:
 - **Node.js 16+**
@@ -86,7 +87,7 @@ The app performs these exact transformations on LoRA keys:
 
 ### Installing Python Dependencies:
 ```bash
-pip install safetensors torch
+pip install safetensors torch numpy
 ```
 
 ## 🏗️ Project Structure
