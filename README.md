@@ -3,7 +3,7 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/d9Jn48D/screen-shot-convert.png" alt="screen-shot-convert" border="0"></a>
 
-A sleek, modern Electron app for converting LoRA files from Wan format to ComfyUI format.
+A sleek, modern Electron app for converting LoRA files from FAL WAN 2.2 LoRA format to ComfyUI format.
 
 ![LoRA Converter Screenshot](https://via.placeholder.com/800x500/1a1a1a/ffffff?text=LoRA+Converter+Screenshot)
 
