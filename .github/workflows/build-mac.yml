@@ -1,4 +1,4 @@
-name: Build Mac Release
+ry aganame: Build Mac Release
 
 on:
   push:
