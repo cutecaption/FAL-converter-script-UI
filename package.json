@@ -18,7 +18,7 @@
     "dev": "electron . --dev",
     "build": "electron-builder --win --publish=never",
     "build-mac": "electron-builder --mac --publish=never",
-    "build-all": "electron-builder --win --mac --linux --publish=never",
+    "build-all": "electron-builder --publish=never",
     "dist": "electron-builder --win --publish=never",
     "dist-mac": "electron-builder --mac --publish=never",
     "pack": "electron-builder --dir",
