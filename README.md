@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LoRA Converter
 
 A sleek, modern Electron app for converting LoRA files from Wan format to ComfyUI format.
@@ -347,5 +346,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-
->>>>>>> 1b1c2d7f96990a2bd21bdffb7b047a3d96c67f21

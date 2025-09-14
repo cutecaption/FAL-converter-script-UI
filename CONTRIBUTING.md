@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Contributing to LoRA Converter
 
 Thank you for your interest in contributing to LoRA Converter! This document provides guidelines and information for contributors.
@@ -172,7 +171,6 @@ All contributors will be recognized in:
 - Special mentions for major features
 
 Thank you for helping make LoRA Converter better for everyone! 🎉
-=======
 # Contributing to LoRA Converter
 
 Thank you for your interest in contributing to LoRA Converter! This document provides guidelines and information for contributors.

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # GitHub Setup Guide for LoRA Converter
 
 This guide will help you upload your LoRA Converter project to GitHub and set up automated builds.
