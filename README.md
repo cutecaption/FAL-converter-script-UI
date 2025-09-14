@@ -354,6 +354,7 @@ Option 1: Microsoft Store (Easiest - Recommended)
 2. Search for "Python"
 3. Install "Python 3.12" (or latest version) - click "Get" or "Install"
 That's it! The Microsoft Store version automatically adds Python to PATH
+
 Option 2: Official Python Installer (Alternative)
 1. Go to python.org/downloads
 2. Click the big yellow "Download Python" button
