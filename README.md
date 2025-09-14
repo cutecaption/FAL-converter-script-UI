@@ -346,5 +346,26 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
+Simple Python Installation Steps for Users
 
->>>>>>> 1b1c2d7f96990a2bd21bdffb7b047a3d96c67f21
+For Windows Users:
+Option 1: Microsoft Store (Easiest - Recommended)
+1. Open Microsoft Store (search for "Microsoft Store" in Start menu)
+2. Search for "Python"
+3. Install "Python 3.12" (or latest version) - click "Get" or "Install"
+That's it! The Microsoft Store version automatically adds Python to PATH
+Option 2: Official Python Installer (Alternative)
+1. Go to python.org/downloads
+2. Click the big yellow "Download Python" button
+3. Run the downloaded installer
+⚠️ CRITICAL: Check the box "Add Python to PATH" at the bottom of the first screen
+4. Click "Install Now"
+
+After Installing Python:
+Open Command Prompt (search "cmd" in Start menu)
+Type this command and press Enter:
+
+pip install safetensors torch
+
+Wait for installation to complete (may take a few minutes)
+Close Command Prompt and try your LoRA Converter app again
