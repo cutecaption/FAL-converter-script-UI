@@ -47,7 +47,9 @@
     "electron": "^28.0.0",
     "electron-builder": "^24.6.4"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dmg-license": "^1.0.11"
+  },
   "build": {
     "appId": "com.loraconverter.app",
     "productName": "LoRA Converter",
