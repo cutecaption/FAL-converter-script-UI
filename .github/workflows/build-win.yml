@@ -26,10 +26,7 @@ jobs:
           python-version: '3.11'
 
       - name: Clean install dependencies
-        shell: pwsh
-        run: |
-          Remove-Item -Recurse -Force node_modules, package-lock.json -ErrorAction SilentlyContinue
-          npm install
+        run: npm ci --no-audit --no-fund
 
       - name: Build Windows app
         run: npm run build
